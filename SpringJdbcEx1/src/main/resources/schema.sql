@@ -1,0 +1,1 @@
+Create Table STUDENTS(roll int primary key,name varchar(20),per double)

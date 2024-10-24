@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;empConfig.xml&apos; to &apos;SpringJDBC/src/main/java/springcorejdbc.SpringJDBC&apos;&#x0D;&#x0A;- Original project: &apos;springcore&apos;&#x0D;&#x0A;- Destination element: &apos;SpringJDBC/src/main/java/springcorejdbc.SpringJDBC&apos;&#x0D;&#x0A;- Original element: &apos;empConfig.xml&apos;" description="Copy file" destination="=SpringJDBC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;springcorejdbc.SpringJDBC" element1="src/main/java/com/springcore/annotations/empConfig.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704959641968" units="0" version="1.0"/>
+</session>

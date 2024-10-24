@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;SpringHibernate/src/main/java/com.pojo&apos;&#x0D;&#x0A;- Original project: &apos;student&apos;&#x0D;&#x0A;- Destination element: &apos;SpringHibernate/src/main/java/com.pojo&apos;&#x0D;&#x0A;- Original element: &apos;Student.java&apos;" description="Copy file" destination="=SpringHibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pojo" element1="src/main/java/com/student/pojo/Student.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712140063015" units="0" version="1.0"/>
+</session>

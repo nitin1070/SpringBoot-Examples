@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\SpringSTS-workspace\student\src\main\java\com\student\dao\RowMapperImpl.java"/>
+			<item value="C:\SpringSTS-workspace"/>
+			<item value="C:\SpringSTS-workspace\SpringJDBC"/>
+			<item value="C:\SpringSTS-workspace\springcore"/>
+			<item value="C:\SpringSTS-workspace\springcore\src\test\java\springcore\springcore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.springorm"/>
+			<item value="springjdbc.SpringHibernate"/>
+			<item value="springjdbc.student"/>
+			<item value="springcorejdbc.SpringJDBC"/>
+		</list>
+		<list key="groupId">
+			<item value="springorm"/>
+			<item value="springjdbc"/>
+			<item value="springcorejdbc"/>
+		</list>
+		<list key="artifactId">
+			<item value="springorm"/>
+			<item value="SpringHibernate"/>
+			<item value="student"/>
+			<item value="SpringJDBC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\hp4ce\Downloads\SpringBootEx1"/>
+			<item value="C:\Users\hp4ce\OneDrive\Desktop\nitin"/>
+			<item value="C:\Users\hp4ce\OneDrive\Desktop\SpringEX"/>
+			<item value="C:\SpringSTS-workspace\springcore"/>
+			<item value="C:\Spring-workspace\SpringCore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="AzureAppServiceSSTISPEL"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="AzureAppServiceSSTISPEL"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.132
+C:\SpringSTS-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4060586984.index
+\AzureAppServiceSSTISPEL\src
+C:\SpringSTS-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\646021927.index
+\AzureAppServiceSSTISPEL\src
+C:\SpringSTS-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\169797546.index
+\AzureAppServiceSSTISPEL\src
+C:\SpringSTS-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\22250582.index
+\MySpringApplication\src\main\java
+C:\SpringSTS-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\629110414.index
+\AzureAppServiceSSTISPEL\src

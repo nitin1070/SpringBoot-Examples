@@ -1,0 +1,95 @@
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p
+     xmlns:c=http://www.springframework.org/schema/c"
+    
+    xmlns:context="http://www.springframework.org/schema/context"
+    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+        
+        
+        <context:annotation-config/>
+        
+     
+        
+      <bean id="empSal" class="com.springcore.annotations.Salary">
+		  <property name="empList">
+			  
+			  <list>
+				  <value>Nitin</value>
+				  <value>Abhay</value>
+				  <value>Pawan</value>
+				  <value>Ajay</value>
+			  </list>
+		  </property>
+		  
+		  <property name="salList">
+			  <map >
+				  
+				 <entry key="nitin" value="40000"/>
+				 <entry key="abhay" value="520"/> 
+				  
+			  </map>
+		  </property>
+		  
+	  </bean>
+      
+      
+      
+       <bean id="empSal2" class="com.springcore.annotations.Salary">
+		  <property name="empList">
+			  
+			  <list>
+				  <value>Soumya</value>
+				  <value>Tanya</value>
+				
+			  </list>
+		  </property>
+		  
+		  <property name="salList">
+			  <map >
+				  
+				 <entry key="Soumya" value="3000"/>
+				 <entry key="Tanya" value="5000"/> 
+				  
+			  </map>
+		  </property>
+		  
+	  </bean>
+      
+      
+      
+      <bean id="a" class="com.springcore.annotations.Add" >
+		 
+		<!-- <property name="contactList">
+			 <map>
+				<entry key="Nitin" value="9174919987"/>
+				<entry key="Pawan" value="7991818707"/>
+			 </map>
+		 </property>-->
+		 <constructor-arg type="java.util.Map">
+			 <map>
+				<entry key="Nitin" value="9174"/>
+				<entry key="Pawan" value="799"/>
+			 </map>
+			 
+			 
+		 </constructor-arg>
+		 <constructor-arg type="java.lang.String" value="Soumya"/>
+		  
+	  </bean>
+      
+      
+        <bean id="emp"  class="com.springcore.annotations.EmpBean"/>
+
+    
+
+
+
+</beans>

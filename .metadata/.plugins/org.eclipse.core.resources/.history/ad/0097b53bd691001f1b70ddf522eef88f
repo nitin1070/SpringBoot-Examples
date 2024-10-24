@@ -1,0 +1,27 @@
+package in.main;
+
+import org.hibernate.cache.spi.support.NaturalIdNonStrictReadWriteAccess;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.main.model.Product;
+import in.main.service.ProductService;
+
+@SpringBootApplication
+public class SpringDataJpaex3Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext run = SpringApplication.run(SpringDataJpaex3Application.class, args);
+		
+		ProductService productService = run.getBean(ProductService.class);
+		
+		Product product = new Product();
+		product.setId(2);
+		product.setProductName("Phones");
+		product.setProductPrice(20000);
+		productService.updateProduct(product);
+		
+	}
+
+}
