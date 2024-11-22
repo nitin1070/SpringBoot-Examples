@@ -6,8 +6,10 @@ import org.springframework.stereotype.Repository;
 import in.main.model.Product;
 
 import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 @Repository
+@Transactional
 public class ProductReposistory {
 	@Autowired
 	public ProductReposistory(EntityManager emEntityManager) {

@@ -1,0 +1,38 @@
+package in.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.main.model.User;
+import in.main.service.UserService;
+
+@SpringBootApplication
+public class SpringDataJpaRepoEx2Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext run = SpringApplication.run(SpringDataJpaRepoEx2Application.class, args);
+		
+		/* To update The data */
+		
+		UserService service = run.getBean(UserService.class);
+		  if(service!=null) {
+			  User user = new User();
+			  user.setId(101);
+			  user.setName("nitin");
+			  user.setAge(25);
+			  user.setEmail("ajay@gmail.com");
+			    service.save(user);
+			    
+			    User user2 = new User();
+				  user2.setId(102);
+				  user2.setName("pawan");
+				  user2.setAge(23);
+				  user2.setEmail("pawan@gmail.com");
+				    service.save(user2);
+			    
+		  }
+		
+	}
+
+}
