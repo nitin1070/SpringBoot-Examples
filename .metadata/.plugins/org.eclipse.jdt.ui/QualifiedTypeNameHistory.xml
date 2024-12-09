@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowCallbackHandler"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
-    <fullyQualifiedTypeName name="in.main.reposistory.EmployeeRowMapper"/>
-    <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
-    <fullyQualifiedTypeName name="in.main.reposistory.EmployeeReposistory"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
-    <fullyQualifiedTypeName name="in.main.services.EmployeeService"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
-    <fullyQualifiedTypeName name="in.main.runners.EmployeeRunner"/>
-    <fullyQualifiedTypeName name="java.awt.Choice"/>
     <fullyQualifiedTypeName name="in.main.model.Employee"/>
     <fullyQualifiedTypeName name="ch.qos.logback.core.joran.conditional.IfAction"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
@@ -33,13 +21,11 @@
     <fullyQualifiedTypeName name="org.hibernate.cache.spi.support.NaturalIdNonStrictReadWriteAccess"/>
     <fullyQualifiedTypeName name="in.main.model.Product"/>
     <fullyQualifiedTypeName name="in.main.service.ProductService"/>
-    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
     <fullyQualifiedTypeName name="in.main.reposistory.CrudeRepo"/>
     <fullyQualifiedTypeName name="javax.xml.transform.Source"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -49,15 +35,29 @@
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="org.hibernate.id.insert.AbstractReturningDelegate"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.processing.Find"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="aj.org.objectweb.asm.commons.AnalyzerAdapter"/>
     <fullyQualifiedTypeName name="org.springframework.dao.DataAccessException"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.query.EqlParser.All_or_any_expressionContext"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="in.main.service.UserService"/>
-    <fullyQualifiedTypeName name="in.main.model.User"/>
     <fullyQualifiedTypeName name="org.hibernate.type.descriptor.java.UUIDJavaType.ToBytesTransformer"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.ExistingWebApplicationScopes"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.PresentationDirection"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="in.main.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+    <fullyQualifiedTypeName name="in.main.model.UserNameAgeProjection"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="in.main.model.User"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+    <fullyQualifiedTypeName name="in.main.reposistory.CompanyReposistory"/>
+    <fullyQualifiedTypeName name="in.main.model.Company"/>
+    <fullyQualifiedTypeName name="in.main.service.CompanyService"/>
+    <fullyQualifiedTypeName name="in.main.model.CompanyProdId"/>
 </qualifiedTypeNameHistroy>
